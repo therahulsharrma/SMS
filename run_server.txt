@@ -1,0 +1,6 @@
+python -m venv venv
+venv\scripts\activate
+cd \\source of the project to get into project directory
+pip install -r requirements.txt
+change in settings.py such that ALLOWED_HOSTS = ['*']
+python manage.py runserver
